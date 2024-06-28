@@ -1,0 +1,19 @@
+.denominationItem {
+  list-style-type: none;
+  width: 50%;
+  margin: 15px;
+}
+.denominationButton {
+  background-color: #382f5a;
+  color: #d4d2db;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .denominationButton {
+    font-size: 25px;
+  }
+}

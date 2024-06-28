@@ -1,0 +1,62 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cashWithdrawalContainer {
+  background-color: #150b3e;
+  width: 80%;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 350px;
+}
+.userDetailsContainer {
+  display: flex;
+}
+.initialContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.initial {
+  color: #7c3aed;
+  font-size: 15px;
+}
+.name {
+  color: #d4d2db;
+  font-size: 15px;
+  margin: 10px;
+}
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.yourBalance {
+  color: #585076;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+}
+.balance {
+  color: #d4d2db;
+}
+.currency {
+  color: #585076;
+}
+.withdraw {
+  color: #d4d2db;
+}
+.chooseSum {
+  color: #585076;
+}
+.denominationList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
